@@ -1,5 +1,12 @@
 # Variables
 
+A variable is a container for storing values:
+
+```javascript
+let name = 'orla'; // orla is our value of the name variable
+
+```
+
 There are 3 ways to declare a variable:
 
 ```javascript
