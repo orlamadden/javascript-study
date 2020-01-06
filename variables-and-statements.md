@@ -35,7 +35,7 @@ var name = 'orla';
 var name = 'orla borla';
 ```
 
-* It is also considered bad practice not to declare a variable like:
+* It is also considered bad practice to declare a variable like:
 ```javascript
 name = 'orla'; // a variable without let, var or const
 ```
