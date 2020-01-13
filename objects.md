@@ -10,7 +10,7 @@ const pikachu = { // pikachu is the object
     type: 'electric',
     level: 32,
     trainer: 'orla',
-    leveledUp: false,
+    leveledUp: false
 }
 ```
 * Order does not matter in an object, if you want order then you must use an array
@@ -20,6 +20,4 @@ const pikachu = { // pikachu is the object
 pikachu.type; // returns electric
 pikachu.level; // returns 32
 pikachu.leveldUp; // returns false
-
-
 ```
