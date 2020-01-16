@@ -21,3 +21,10 @@ Date.now(); // returns the date in milliseconds
 const p = document.querySelector('p'); // selects first p tag in html document
 console.log(p); // logs the selected p tag to the console
 ```
+
+* [Mozilla Developer Network (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) is a fantastic resource for all things Javascript
+
+```javascript
+scrollTo (0, 300); // scrolls to x, y position on screen
+scrollTo ({top: 400, left: 0, behavior: 'smooth'}); // scroll options, scrolls to position on screen smoothly
+```
