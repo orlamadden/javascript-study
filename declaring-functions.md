@@ -55,3 +55,20 @@ const inchToCM = (inches) => inches * 2.54;
 ```javascript
 const inchToCM = inches => inches * 2.54;
 ```
+* If there is two parameters, you must keep the parentheses
+```javascript
+const add = (a, b = 3) => a + b;
+```
+* A function containing an object can also be converted to an arrow function
+```javascript
+function makeABaby(first, last) {
+  const baby = {
+    name: `${first} ${last}`,
+    age: 0
+  };
+  return baby;
+}
+
+// arrow function version 
+const makeABaby = (first, last) => ({ name: `${first} ${last}`, age: 0});
+```
