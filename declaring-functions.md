@@ -45,3 +45,13 @@ const inchToCM = (inches) => {
     return inches * 2.54;
   };
 ```
+* Using the ```return``` keyword is an example of a 'explicit' return. It me ans we explicitly return a value
+* 'Implicit' returns omit the use of the ```return``` keyword for concise code if you are creating quick one line snippets of code
+
+```javascript
+const inchToCM = (inches) => inches * 2.54;
+```
+* If there is one parameter, you can remove the parentheses from the function
+```javascript
+const inchToCM = inches => inches * 2.54;
+```
