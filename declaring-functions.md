@@ -72,3 +72,17 @@ function makeABaby(first, last) {
 // arrow function version 
 const makeABaby = (first, last) => ({ name: `${first} ${last}`, age: 0});
 ```
+
+* A callback function is a function that is passed through another function, and is called at a later point
+```javascript
+button.addEventListener('click', function() {
+    console.log('Nice Job!!');
+});
+```
+
+* Timer callbacks run after a specific amount of time - takes 2 paramenters, function and time
+```javascript
+setTimeout(function() {
+    console.log('Done!');
+}, 1000);
+```
