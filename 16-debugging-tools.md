@@ -70,3 +70,25 @@ function go() {
 ![](https://res.cloudinary.com/orla2020/image/upload/v1582266272/Javascript%20Course%20by%20Wes%20Bos/console-error_dxray8.png)
 
 * This method allows us to trace where the function is called so we can fix the bug.
+
+### Grabbing Elements
+
+* In Chrome Devtools, when you have an element selected in the 'Elements' tab, switch to console and type in ```$0```
+* The 0 stands for the last element clicked
+* It also works for ```$1``` which is second last element clicked, and ```$2``` which is third last element clicked
+* $ and $$ are shorthand selectors
+
+### Breakpoints
+
+* The debugger keyword stops the code from executing and opens debugging in the console
+```Javascript
+people.forEach((person, index) => {
+  debugger; // code stops here and debugging function opens
+  console.groupCollapsed(`${person.name}`);
+  console.log(person.country);
+  console.log(person.cool);
+  console.log('Done');
+  console.groupEnd(`${person.name}`);
+});
+```
+
