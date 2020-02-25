@@ -18,3 +18,22 @@ function go() {
 console.log(age); // logs 100
 console.log(hair); // logs undefined
 ```
+* You can name variables the same thing, once they are not in the same scope. This hinders accessing variables
+
+### Variable Scoping
+
+* let, var and const are all scoped differently
+* var is function scoped, let and const are block scoped
+* Curly brackets { } are blocks, or gates, that keep variables in
+* From outside the blocks, you are not allowed to access whats inside the blocks
+
+```javascript
+if (1 === 1) {
+  // const cool = true; // can't be accessed
+  // let cool = true; // can't be accessed
+  // var cool = true; // can be accessed 
+}
+
+console.log(cool);
+```
+
