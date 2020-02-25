@@ -91,4 +91,9 @@ people.forEach((person, index) => {
   console.groupEnd(`${person.name}`);
 });
 ```
+### Network Requests
+
+* In chrome devtools, networks allows you to see details about what's running in the background and how long it takes requests to load
+
+* 98% of Wes's debugging activity is done using console.log(), breakpoints and network requests
 
